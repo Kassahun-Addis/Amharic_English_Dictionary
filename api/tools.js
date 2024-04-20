@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const domain = 'https://azeb.onrender.com';
+//const domain = 'https://azeb.onrender.com';
 
 export const getEntries = async (word) => {
     try {

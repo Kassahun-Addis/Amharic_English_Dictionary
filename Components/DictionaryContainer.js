@@ -45,9 +45,11 @@ const DictionaryContainer = () => {
                 </ScrollView>
             )}
             {!loading && !hasSearched && (
+    
                 <View style={styles.welcomeMessage}>
-                    <Text style={styles.welcomeTitle}>Azeb's Dictionary!</Text>
-                    <Text>Type a word in the search box above to get started.</Text>
+                {/* <Text style={styles.welcomeTitle}>Azeb's Dictionary!</Text> */}
+                <Text style={[styles.welcomeTitle, { fontSize: 20, fontWeight: 'bold' }]}>Kasus's Dictionary!</Text>
+                <Text>Type a word in the search box above to get started.</Text>
                 </View>
             )}
         </View>
